@@ -1,0 +1,96 @@
+body{
+    background-image: url(img/fundomadeiraliso.png);
+    background-size: contain;
+    color :#F1FAEE;
+    font-family: Tahoma, Geneva, sans-serif;
+    text-align: center;
+}
+ h3{
+    font-weight: bold;
+ }
+
+.btn{
+    background-color: #81001f;
+    color: #F1FAEE;
+    width: 200px;
+    border: 4px solid #c90130;
+    border-radius: 8px;
+}
+
+.btn:hover{
+    animation: pulse;
+    animation-duration: 1s;
+    color: #f89a0e;
+}
+
+.cta{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.flexo-v {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    align-content: flex-start;
+    padding: 20px;
+}
+
+.flexo-vv {
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    align-content: flex-start;
+    padding: 20px;
+}
+
+.flexo-h {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item-box{
+    width: 800px;
+    height: 60vh;
+}
+
+.item-in-box{
+    object-fit:contain; height: 70vh; width: inherit;
+}
+
+@media (max-width: 800px) {
+    .item-box{
+        width: 100vw;
+    }
+    .item-in-box{
+        object-fit:cover;
+    }
+}
+
+.spacer{
+    height: 40px;
+}
+
+a{
+    color: #A8DADC;
+    font-weight: bold;
+}
+
+a:hover{
+    color: white;
+}
+
+.campaign {
+    background-image: url(img/denim2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
